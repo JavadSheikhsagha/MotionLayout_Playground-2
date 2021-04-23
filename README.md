@@ -1,6 +1,7 @@
 # MotionLayout-Playground 2
 
-I made this design in order to make a cool multiple cards shifting through each other. You can change it as you wish.
+In a project we needed a Step view so i made this using Motion Layout and here it is..
+so enjoy :)
 
 
    ### **Developer's e-mail : sir.hxt@gmail.com** 
@@ -9,7 +10,7 @@ I made this design in order to make a cool multiple cards shifting through each 
 
 ## Preview
 [https://gifyu.com/image/tiz2]
-![Alt Text](https://github.com/JavadSheikhsagha/MotionLayout-Playground1/blob/main/20210422_143747.gif)
+![Alt Text](https://github.com/JavadSheikhsagha/MotionLayout_Playground2/blob/main/20210423_223712.gif)
 
 
 Stay Creative ;)

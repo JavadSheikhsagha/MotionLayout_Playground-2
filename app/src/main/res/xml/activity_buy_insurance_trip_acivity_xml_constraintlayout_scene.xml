@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+        <KeyFrameSet>
+        </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/ml_trip_second" >
+        <Constraint
+            android:layout_height="16dp"
+            android:layout_marginTop="10dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="@+id/textView2"
+            android:layout_width="16dp"
+            motion:layout_constraintTop_toBottomOf="@+id/textView"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintStart_toStartOf="@+id/textView2"
+            android:id="@+id/imageView7" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/start"
+        motion:constraintSetEnd="@+id/ml_trip_second"
+        android:id="@+id/tran_trip_second"
+        motion:duration="700"
+        motion:motionInterpolator="cubic(0.8,0,0.2,1)" >
+        <KeyFrameSet >
+            <KeyAttribute
+                motion:motionTarget="@+id/imageView7"
+                motion:framePosition="50"
+                android:translationY="-10dp" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@+id/ml_trip_third" >
+        <Constraint
+            android:layout_height="16dp"
+            android:layout_marginTop="10dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="@+id/textView3"
+            android:layout_width="16dp"
+            motion:layout_constraintTop_toBottomOf="@+id/textView"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintStart_toStartOf="@+id/textView3"
+            android:id="@+id/imageView7" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/ml_trip_second"
+        motion:constraintSetEnd="@+id/ml_trip_third"
+        android:id="@+id/tran_trip_third"
+        motion:duration="700"
+        motion:motionInterpolator="cubic(0.8,0,0.2,1)" >
+
+        <KeyFrameSet >
+            <KeyAttribute
+                motion:motionTarget="@+id/imageView7"
+                motion:framePosition="50"
+                android:translationY="-10dp" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@+id/ml_trip_fourth" >
+        <Constraint
+            android:layout_height="16dp"
+            android:layout_marginTop="10dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="@+id/textView4"
+            android:layout_width="16dp"
+            motion:layout_constraintTop_toBottomOf="@+id/textView"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintStart_toStartOf="@+id/textView4"
+            android:id="@+id/imageView7" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/ml_trip_third"
+        motion:constraintSetEnd="@+id/ml_trip_fourth"
+        android:id="@+id/tran_trip_fourth"
+        motion:duration="700"
+        motion:motionInterpolator="cubic(0.8,0,0.2,1)" >
+        <KeyFrameSet >
+            <KeyAttribute
+                motion:motionTarget="@+id/imageView7"
+                motion:framePosition="50"
+                android:translationY="-10dp" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@+id/ml_trip_fifth" >
+        <Constraint
+            android:layout_height="16dp"
+            android:layout_marginTop="10dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="@+id/textView5"
+            android:layout_width="16dp"
+            motion:layout_constraintTop_toBottomOf="@+id/textView"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintStart_toStartOf="@+id/textView5"
+            android:id="@+id/imageView7" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/ml_trip_fourth"
+        motion:constraintSetEnd="@+id/ml_trip_fifth"
+        android:id="@+id/tran_trip_fifth"
+        motion:duration="700"
+        motion:motionInterpolator="cubic(0.8,0,0.2,1)" >
+
+        <KeyFrameSet >
+            <KeyAttribute
+                motion:motionTarget="@+id/imageView7"
+                motion:framePosition="50"
+                android:translationY="-10dp" />
+        </KeyFrameSet>
+    </Transition>
+
+</MotionScene>

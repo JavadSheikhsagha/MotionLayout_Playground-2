@@ -1,6 +1,6 @@
 # MotionLayout-Playground 2
 
-In a project we needed a Step view so i made this using Motion Layout and here it is..
+In a project we needed a ViewPager(per say) so i made this using Motion Layout and here it is..
 so enjoy :)
 
 
